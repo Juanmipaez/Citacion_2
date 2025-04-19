@@ -89,6 +89,26 @@ const scenes = [
       ]
     },
     {
+      id: 'escena9',
+      title: 'Ortografía',
+      text: 'Tu trabajo tiene problemas de ortografía en algunas referencias.',
+      image: 'https://cdn-icons-png.flaticon.com/512/2280/2280532.png',
+      options: [
+        { text: 'Las corrigo para entregarlo bien', next: 'final' },
+        { text: 'Las dejo así, nadie se va a dar cuenta de una tílde mal puesta', next: 'escena10' }
+      ]
+    },
+    {
+      id: 'escena10',
+      title: "Chao pescao'",
+      text: 'Hiciste lo incorrecto, no respetaste las reglas de citación e infringiste los derechos de autor. Comienza proceso disciplinario',
+      image: 'https://cdn-icons-png.flaticon.com/512/7801/7801791.png',
+      options: [
+        { text: 'Comenzar asignatura de nuevo', next: 'inicio' },
+      ]
+    },
+
+    {
       id: 'final',
       title: 'Fin del Viaje',
       text: '¡Lo lograste! El plagio no fue parte de tu viaje. Ahora puedes avanzar en tu carrera académica.',
